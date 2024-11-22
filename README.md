@@ -63,17 +63,32 @@ Y= A⊕B
 
 
 **PROGRAM**
+~~~
+input a,b;
+output c,d,e,x,y,z;
+assign c=a&b;
+assign d=a|b;
+assign e=a^b;
+assign x=~(a&b);
+assign y=~(a|b);
+assign z=~(a^b);
+endmodule
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
- 
+ Developed by:sharvesahwaran m
+RegisterNumber: 24001970
+ ~~~
 **Logic symbol & Truthtable**
+![TRUTHTABLE](https://github.com/user-attachments/assets/7a86f637-a3af-4baf-81d4-a52107e3180d)
 
 **RTL realization Output:** 
+![RTL](https://github.com/user-attachments/assets/3437328d-8bc0-476c-b069-4ff39e77dda5)
 
-**RTL**
+**waveform**
+![waveform](https://github.com/user-attachments/assets/ed459e3d-57b6-4ffa-996f-2143f13543e9)
 
 **Result:**
+Thus the logic gates are daesigned and truth table are verified
 
 
